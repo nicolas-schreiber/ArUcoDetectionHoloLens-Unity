@@ -229,7 +229,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 805832263}
-  - component: {fileID: 805832264}
   - component: {fileID: 805832265}
   m_Layer: 0
   m_Name: Script Holder
@@ -252,26 +251,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &805832264
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 805832262}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a2f617a04cdb56548b9f978ee42eca20, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myText: {fileID: 705192944}
-  deviceType: 1
-  sensorTypePv: 0
-  arUcoDictionaryName: 8
-  markerSize: 0.08
-  markerGo: {fileID: 6938460688606143788, guid: 2e5d73686abb4b440940c1d00e105576,
-    type: 3}
-  pvGo: {fileID: 1810004528}
 --- !u!114 &805832265
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -284,7 +263,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 837dc35204d19044cb6801500d805cbf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myText: {fileID: 0}
+  myText: {fileID: 705192944}
   deviceType: 1
   sensorTypePv: 0
   arUcoDictionaryName: 0
