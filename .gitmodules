@@ -4,3 +4,4 @@
 [submodule "HoloLensForCV"]
 	path = HoloLensForCV
 	url = https://github.com/nicolas-schreiber/HoloLensForCV.git
+	branch = feat-charuco
